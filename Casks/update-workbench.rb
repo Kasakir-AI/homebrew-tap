@@ -4,7 +4,7 @@ cask "update-workbench" do
 
   url "https://github.com/Kasakir-AI/UpdateWorkbench/releases/download/v#{version}/UpdateWorkbench-#{version}.dmg"
   name "Update Workbench"
-  desc "Finds and installs updates for Mac apps and Homebrew packages"
+  desc "Finds and installs updates for apps and Homebrew packages"
   homepage "https://github.com/Kasakir-AI/UpdateWorkbench"
 
   livecheck do
@@ -13,14 +13,15 @@ cask "update-workbench" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Update Workbench.app"
 
   # The app is ad-hoc signed, not notarized: clear the download quarantine so it opens normally.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Update Workbench.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args:         ["-dr", "com.apple.quarantine", "{{appdir}}/Update Workbench.app"],
+        must_succeed: false
   end
 
   zap trash: [
