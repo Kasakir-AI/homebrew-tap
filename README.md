@@ -35,9 +35,6 @@ Requires **macOS 26 (Tahoe) or later**.
   flag in Terminal: `xattr -cr /Applications/Marmot.app`
 - **Upgrades and uninstalls** quit Marmot first so it's replaced or removed cleanly. `brew uninstall --zap marmot`
   also removes its settings, caches and saved state.
-- **On macOS 13–15?** This cask isn't supported there. Download `Marmot-3.2.0.zip` from the
-  [Marmot 3.2.0 release](https://github.com/Kasakir-AI/Marmot/releases/tag/v3.2.0), unzip it, and drag
-  **Marmot.app** into **Applications**.
 
 ### Moving from the old Marmot tap
 
