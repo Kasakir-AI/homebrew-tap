@@ -46,7 +46,7 @@ here. Homebrew only switches an app to a new tap you trust, so finish the move w
 
 ```sh
 brew tap kasakir-ai/tap
-brew trust kasakir-ai/tap/marmot
+brew trust --cask kasakir-ai/tap/marmot
 brew reinstall --cask kasakir-ai/tap/marmot
 brew untap kasakir-ai/marmot
 ```
