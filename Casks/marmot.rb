@@ -2,8 +2,8 @@
 # Lives in the tap repo: github.com/Kasakir-AI/homebrew-tap (Casks/marmot.rb)
 # Regenerate for each release with: sh scripts/make-cask.sh
 cask "marmot" do
-  version "1.0.0"
-  sha256 "0efcf444842b0b48c223ec841a4f624e4ec052348eeb959975ca5e931de4d627"
+  version "1.0.1"
+  sha256 "ba93e27d4ff1a3c91b75f7ef0dac95deeb33306c42bca3dd4723903743d63c62"
 
   url "https://github.com/Kasakir-AI/Marmot/releases/download/v#{version}/Marmot-#{version}.zip"
   name "Marmot"
