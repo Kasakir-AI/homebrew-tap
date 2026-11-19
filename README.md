@@ -55,11 +55,12 @@ Your Marmot settings are kept.
 
 ```sh
 brew install kasakir-ai/tap/agent-sync
+agent-sync setup                  # install Claude Code, Codex, Cursor Agent if missing
 agent-sync run --dry-run          # see what it would change; changes nothing
 agent-sync install --launcher     # run it once a day (and add a Desktop launcher)
 ```
 
-A command-line tool for macOS and Linux; needs git and Node. Update with `brew upgrade`; the daily schedule
+A command-line tool for macOS and Linux. Update with `brew upgrade`; the daily schedule
 keeps working across upgrades. Settings live in `~/.config/agent-sync/config.toml`; see the
 [README](https://github.com/Kasakir-AI/agent-sync#configure).
 
