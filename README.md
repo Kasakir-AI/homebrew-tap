@@ -1,11 +1,12 @@
 # Kasakir-AI Homebrew tap
 
-Homebrew casks for Kasakir-AI apps.
+Homebrew casks and formulae for Kasakir-AI apps and tools.
 
-| Cask | App |
+| Name | What it is |
 | --- | --- |
 | `update-workbench` | [Update Workbench](https://github.com/Kasakir-AI/UpdateWorkbench): finds and installs updates for Mac apps and Homebrew packages. |
 | `marmot` | [Marmot](https://github.com/Kasakir-AI/Marmot): free, open-source disk cleaner that shows everything before it touches anything. |
+| `agent-sync` (formula) | [agent-sync](https://github.com/Kasakir-AI/agent-sync): keeps Claude Code, Codex and Cursor in step (skills, agents, MCP servers, plugins, CLIs), once a day. |
 
 ## Update Workbench
 
@@ -50,6 +51,18 @@ brew untap kasakir-ai/marmot
 
 Your Marmot settings are kept.
 
+## agent-sync
+
+```sh
+brew install kasakir-ai/tap/agent-sync
+agent-sync run --dry-run          # see what it would change; changes nothing
+agent-sync install --launcher     # run it once a day (and add a Desktop launcher)
+```
+
+A command-line tool for macOS and Linux; needs git and Node. Update with `brew upgrade`; the daily schedule
+keeps working across upgrades. Settings live in `~/.config/agent-sync/config.toml`; see the
+[README](https://github.com/Kasakir-AI/agent-sync#configure).
+
 ## License
 
-MIT, see [LICENSE](LICENSE). Covers the cask files in this tap. Each app has its own license in its repository.
+MIT, see [LICENSE](LICENSE). Covers the cask and formula files in this tap. Each app has its own license in its repository.
