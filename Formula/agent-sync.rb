@@ -20,7 +20,7 @@ class AgentSync < Formula
         agent-sync setup
       See what it would change:  agent-sync run --dry-run
       Schedule the daily upkeep: agent-sync install --launcher
-      Settings: ~/.config/agent-sync/config.toml (see config.example.toml in the repository)
+      Change the settings:       agent-sync config
     EOS
   end
 
