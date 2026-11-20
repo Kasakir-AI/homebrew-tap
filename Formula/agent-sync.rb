@@ -3,8 +3,8 @@ class AgentSync < Formula
 
   desc "Keep Claude Code, Codex and Cursor in step: skills, agents, MCP servers and CLIs"
   homepage "https://github.com/Kasakir-AI/agent-sync"
-  url "https://github.com/Kasakir-AI/agent-sync/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "1544eccdf313b7849635cded894cf1eaab52fe0fca62b04f6508cd6cb72917eb"
+  url "https://github.com/Kasakir-AI/agent-sync/archive/refs/tags/v0.5.1.tar.gz"
+  sha256 "695717b4c08ddc5dff2808082ab5b83c979993bfa69c09dbbc750db1aa8b9af0"
   license "MIT"
 
   depends_on "node"
