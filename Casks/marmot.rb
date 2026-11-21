@@ -1,17 +1,20 @@
+# frozen_string_literal: true
+
 # Homebrew cask for Marmot.
 # Lives in the tap repo: github.com/Kasakir-AI/homebrew-tap (Casks/marmot.rb)
 # Regenerate for each release with: sh scripts/make-cask.sh
 cask "marmot" do
-  version "1.0.1"
-  sha256 "ba93e27d4ff1a3c91b75f7ef0dac95deeb33306c42bca3dd4723903743d63c62"
+  version "1.0.2"
+  sha256 "c797612f0d9eaf90c9f09cd7a7ddb969b667e87113292b762cd5efbc1772bd70"
 
-  url "https://github.com/Kasakir-AI/Marmot/releases/download/v#{version}/Marmot-#{version}.zip"
+  url "https://github.com/Kasakir-AI/Marmot/releases/download/v#{version}/Marmot-#{version}.dmg"
   name "Marmot"
   desc "Free, open-source disk cleaner that shows everything before it touches anything"
   homepage "https://github.com/Kasakir-AI/Marmot"
 
   # Marmot updates itself via Sparkle after install.
   auto_updates true
+  depends_on arch: :arm64
   depends_on macos: :tahoe
 
   app "Marmot.app"
@@ -26,11 +29,4 @@ cask "marmot" do
     "~/Library/Preferences/dev.marmot.app.plist",
     "~/Library/Saved Application State/dev.marmot.app.savedState",
   ]
-
-  caveats <<~CAVEATS
-    Marmot is not notarized (free community software). On first launch:
-    System Settings → Privacy & Security → "Open Anyway".
-    Or clear quarantine directly:
-      xattr -cr /Applications/Marmot.app
-  CAVEATS
 end

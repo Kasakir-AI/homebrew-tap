@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 cask "update-workbench" do
-  version "0.5.0"
-  sha256 "aa1d560ad673d26adb8a7566aef04237f97397b9ba0c3c5c549093b1c29826a7"
+  version "0.5.1"
+  sha256 "17047fedd712241f28c9d801c0f0b93fcaac456ce988e1f9a6487f7e403a38dc"
 
   url "https://github.com/Kasakir-AI/UpdateWorkbench/releases/download/v#{version}/UpdateWorkbench-#{version}.dmg"
   name "Update Workbench"
@@ -16,13 +18,6 @@ cask "update-workbench" do
   depends_on macos: :sonoma
 
   app "Update Workbench.app"
-
-  # The app is ad-hoc signed, not notarized: clear the download quarantine so it opens normally.
-  postflight_steps do
-    run "/usr/bin/xattr",
-        args:         ["-dr", "com.apple.quarantine", "{{appdir}}/Update Workbench.app"],
-        must_succeed: false
-  end
 
   zap trash: [
     "~/Library/Application Support/Update Workbench",
