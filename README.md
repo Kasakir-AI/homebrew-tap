@@ -78,6 +78,10 @@ A command-line tool for macOS and Linux. Update with `brew upgrade`; the daily s
 keeps working across upgrades. Settings live in `~/.config/agent-sync/config.toml`; see the
 [README](https://github.com/Kasakir-AI/agent-sync#configure).
 
+## Support
+
+These apps are free. If one helps you, star its repository or [sponsor on GitHub](https://github.com/sponsors/Kasakir-AI), once or monthly. Aster is also coming to the [Mac App Store](https://apps.apple.com/app/id6838112678).
+
 ## License
 
 MIT, see [LICENSE](LICENSE). Covers the cask and formula files in this tap. Each app has its own license in its repository.
