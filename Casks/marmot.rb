@@ -5,7 +5,7 @@
 # Regenerate for each release with: sh scripts/make-cask.sh
 cask "marmot" do
   version "1.0.2"
-  sha256 "c797612f0d9eaf90c9f09cd7a7ddb969b667e87113292b762cd5efbc1772bd70"
+  sha256 "33f3471eedd165c07530517702d4003de87f4b2604cedf9b5ccb2fc83c52d734"
 
   url "https://github.com/Kasakir-AI/Marmot/releases/download/v#{version}/Marmot-#{version}.dmg"
   name "Marmot"
