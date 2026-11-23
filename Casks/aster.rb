@@ -1,6 +1,6 @@
 cask "aster" do
-  version "1.0.3"
-  sha256 "1192c31c558dd3a3a11cf868bda1cfbf7f2523aba4cdd6badb01d9847d788bb1"
+  version "1.0.4"
+  sha256 "684133725ba956d55e81883debd9e79951ea5ae89ae3d7750087ae7b6743b6b4"
 
   url "https://github.com/Kasakir-AI/Aster/releases/download/v#{version}/Aster-#{version}.dmg"
   name "Aster"
