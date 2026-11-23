@@ -80,7 +80,7 @@ keeps working across upgrades. Settings live in `~/.config/agent-sync/config.tom
 
 ## Support
 
-These apps are free. If one helps you, star its repository, [buy me a coffee on Ko-fi](https://ko-fi.com/kasakir), or [sponsor on GitHub](https://github.com/sponsors/Kasakir-AI), once or monthly. Aster is also coming to the [Mac App Store](https://apps.apple.com/app/id6838112678).
+These apps are free. If one helps you, star its repository, [buy me a coffee on Ko-fi](https://ko-fi.com/kasakir), or [sponsor on GitHub](https://github.com/sponsors/Kasakir-AI), once or monthly. Aster is also coming to the Mac App Store.
 
 ## License
 
