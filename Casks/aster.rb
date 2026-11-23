@@ -1,8 +1,6 @@
-# frozen_string_literal: true
-
 cask "aster" do
-  version "1.0.2"
-  sha256 "c913a2a80b3e849c7f05bd5a8f4bf7760001163f2d8f24f2b0a007167e227a1c"
+  version "1.0.3"
+  sha256 "1192c31c558dd3a3a11cf868bda1cfbf7f2523aba4cdd6badb01d9847d788bb1"
 
   url "https://github.com/Kasakir-AI/Aster/releases/download/v#{version}/Aster-#{version}.dmg"
   name "Aster"
