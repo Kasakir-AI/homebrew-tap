@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "update-workbench" do
-  version "0.5.3"
-  sha256 "725d67816b14d8a3828679c78c19f505f80ad376105c465a93b778901f2bf8b5"
+  version "0.5.4"
+  sha256 "a024b957e5fae3956090f4926ce4598bd1b7e231339a69206f5ae670c951a5b4"
 
   url "https://github.com/Kasakir-AI/UpdateWorkbench/releases/download/v#{version}/UpdateWorkbench-#{version}.dmg"
   name "Update Workbench"
