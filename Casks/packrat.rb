@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "packrat" do
-  version "3.4.3"
-  sha256 "3bdc63b5061e22dd34f76bcb8eae69f206c380b42912d7fd4e1d05bd0bb96bd5"
+  version "3.4.4"
+  sha256 "28d38a3cd87ee20af5c5c3bd6bed814fa527417a58284ad3499e05022f39b276"
 
   url "https://github.com/Kasakir-AI/Packrat/releases/download/v#{version}/Packrat-macOS.dmg"
   name "Packrat"
