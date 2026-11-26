@@ -8,7 +8,7 @@ Homebrew casks and formulae for Kasakir-AI apps and tools.
 | `marmot` | [Marmot](https://github.com/Kasakir-AI/Marmot): free, open-source disk cleaner that shows everything before it touches anything. |
 | `aster` | [Aster](https://github.com/Kasakir-AI/Aster): Markdown editor with Finder Quick Look previews. |
 | `packrat` | [Packrat](https://github.com/Kasakir-AI/Packrat): finds, downloads and organizes pictures and videos. |
-| `agent-sync` (formula) | [agent-sync](https://github.com/Kasakir-AI/agent-sync): keeps Claude Code, Codex and Cursor in step (skills, agents, MCP servers, plugins, CLIs), once a day. |
+| `agent-sync` (formula) | [agent-sync](https://github.com/Kasakir-AI/agent-sync): keeps AI coding agents in step (Claude Code, Codex, Cursor, Gemini CLI, Antigravity): skills, agents, MCP servers, plugins and CLIs, once a day. |
 
 ## Update Workbench
 
