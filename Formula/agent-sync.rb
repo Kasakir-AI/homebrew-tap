@@ -3,8 +3,8 @@ class AgentSync < Formula
 
   desc "Keep AI coding agents in step: skills, plugins, MCP servers, memory and CLIs"
   homepage "https://github.com/Kasakir-AI/agent-sync"
-  url "https://github.com/Kasakir-AI/agent-sync/archive/refs/tags/v0.10.0.tar.gz"
-  sha256 "fcbe683f5f006ceec71516760edb1b3e6e37dd6ea42e4e2432334a08cf50d863"
+  url "https://github.com/Kasakir-AI/agent-sync/archive/refs/tags/v0.10.1.tar.gz"
+  sha256 "e75b9408647146341b8f3cb2fba9862aaacc189217ef9778208c0b623286f119"
   license "MIT"
 
   depends_on "node"
